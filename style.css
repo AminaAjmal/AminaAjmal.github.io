@@ -148,7 +148,20 @@ nav a:hover {
   color: #2563eb;
   font-weight: 600;
 }
+#projects article a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    font-weight: 600;
+}
 
+#projects article a:hover {
+    background-color: #1d4ed8;
+}
 
 /* ---------- SKILLS ---------- */
 
