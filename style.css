@@ -1,0 +1,195 @@
+/* ---------- GENERAL ---------- */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f2937;
+  background-color: #f8fafc;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 30px 60px;
+}
+
+section {
+  padding: 55px 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  color: #0f172a;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+
+/* ---------- HEADER / HERO ---------- */
+
+header {
+  background-color: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 75px 25px 55px;
+}
+
+header h1 {
+  color: white;
+  font-size: 48px;
+  margin-bottom: 8px;
+}
+
+header > p {
+  color: #cbd5e1;
+  font-size: 19px;
+  margin: 0 0 30px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #60a5fa;
+}
+
+
+/* ---------- ABOUT ---------- */
+
+#about {
+  max-width: 800px;
+}
+
+#about p {
+  font-size: 18px;
+  color: #475569;
+}
+
+
+/* ---------- PROJECTS ---------- */
+
+#projects {
+  border-top: 1px solid #e2e8f0;
+}
+
+#projects article {
+  background-color: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 22px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+#projects article h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+#projects article p {
+  color: #475569;
+}
+
+#projects article p:first-of-type {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+
+/* ---------- SKILLS ---------- */
+
+#skills {
+  border-top: 1px solid #e2e8f0;
+}
+
+#skills p {
+  background-color: #eaf2ff;
+  color: #1e40af;
+  display: inline-block;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+
+/* ---------- CONTACT ---------- */
+
+#contact {
+  border-top: 1px solid #e2e8f0;
+}
+
+#contact p {
+  font-size: 18px;
+  color: #475569;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 25px;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 700px) {
+
+  header {
+    padding: 55px 20px 40px;
+  }
+
+  header h1 {
+    font-size: 38px;
+  }
+
+  header > p {
+    font-size: 17px;
+  }
+
+  main {
+    padding: 10px 20px 40px;
+  }
+
+  section {
+    padding: 40px 0;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  nav {
+    gap: 18px;
+  }
+}
